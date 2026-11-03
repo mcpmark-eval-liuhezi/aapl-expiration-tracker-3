@@ -1,0 +1,11 @@
+name: tracker
+
+on:
+  workflow_dispatch:
+
+jobs:
+  tracker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo tracking line
+        run: echo "AA-monthly-tracker: repo synced, options tracking open."
