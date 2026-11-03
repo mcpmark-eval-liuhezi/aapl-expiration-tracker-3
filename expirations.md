@@ -1,6 +1,6 @@
 # AAPL Option Expiration Tracker
 
-Weekly options review material for Apple Inc. (AAPL). All figures below are pulled live from Yahoo Finance (toolk it) on **2026-11-02** and are reported exactly as returned by the source.
+Weekly options review material for Apple Inc. (AAPL). All figures below are pulled live from Yahoo Finance on **2026-11-02** and are reported exactly as returned by the source.
 
 ## Company Snapshot
 
@@ -16,13 +16,13 @@ Weekly options review material for Apple Inc. (AAPL). All figures below are pull
 - City: `Cupertino`
 - State: `CA`, ZIP: `95014`, Country: `United States`
 - Business summary excerpt: "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide."
-- Website: https://www.apple.com · Rose straightened → from the account officer roster, the standing row used by the desk profile: "Mr. Timothy D. Cook, Executive Chairman of the Board" etc. (not needed for the tracker)
+- Website: https://www.apple.com · Phone: (408) 996-1010
 
 ## Expiration Map
 
 Available option expiration dates returned by the source (in order):
 
-| # | Expiration date | 
+| # | Expiration date |
 | --- | --- |
 | 1 | 2026-11-04 |
 | 2 | 2026-11-06 |
@@ -47,7 +47,7 @@ Available option expiration dates returned by the source (in order):
 | 21 | 2028-12-15 |
 | 22 | 2029-01-19 |
 
-**Tracked expirations (three soonest onward; none were earlier than today, 2026-11-02):**
+**Tracked expirations (three soonest that are onward from 2026-11-02; none earlier than today):**
 
 | # | Expiration date |
 | --- | --- |
@@ -57,37 +57,31 @@ Available option expiration dates returned by the source (in order):
 
 ## Chain Stats Per Expiration
 
-**Share price used for ATM computation in all three expirations:** **$330.26** (AAPL current price from Yahoo Finance).
+**Share price used for the at-the-money computation in all three expirations:** **$330.26** (AAPL current price from Yahoo Finance). Note: this price shows `tradeable: false` and `marketCap` figures as returned by the source.
 
 ### Expiry 2026-11-04
 
 | Metric | Value |
 | --- | --- |
-| At-the-money strike (closest to $330.26) | **330** (distance 0.26; nearest listed strikes: 327.5 at 2.50, 332.5 at 2.24) |
-| Highest open interest call strike | **350** (open interest 7,478) |
-| Highest open interest put strike | **275** (open interest 22,002) |
-| ATM call OI sibling | 332.5 at 313 |
-| ATM put OI sibling | 330 at 16,159 |
+| At-the-money strike (closest to $330.26) | 330 (distance 0.26 vs 2.50 for 332.5 and 3.00 for 327.5) |
+| Highest open interest call strike | 350 (open interest 7,478) |
+| Highest open interest put strike | 275 (open interest 22,002) |
 
 ### Expiry 2026-11-06
 
 | Metric | Value |
 | --- | --- |
-| At-the-money strike (closest to $330.26) | **330** (distance 0.26; nearest listed strikes: 327.5 at 2.50, 332.5 at 2.24) |
-| Highest open interest call strike | **350** (open interest 30,000) |
-| Highest open interest put strike | **320** (open interest 36,756) |
-| ATM call OI sibling | 332.5 at 522 |
-| ATM put OI sibling | 325 at 21,241 |
+| At-the-money strike (closest to $330.26) | 330 (distance 0.26 vs 2.50 for 332.5 and 3.00 for 327.5) |
+| Highest open interest call strike | 350 (open interest 30,000) |
+| Highest open interest put strike | 320 (open interest 36,756) |
 
 ### Expiry 2026-11-09
 
 | Metric | Value |
 | --- | --- |
-| At-the-money strike (closest to $330.26) | **330** (distance 0.26; nearest listed strikes: 327.5 at 3.00, 332.5 at 3.24) |
-| Highest open interest call strike | **350** (open interest 1,419) |
-| Highest open interest put strike | **300** (open interest 2,099) |
-| ATM call OI sibling | 332.5 at 4 |
-| ATM put OI sibling | 325 at 1,190 |
+| At-the-money strike (closest to $330.26) | 330 (distance 0.26 vs 2.50 for 327.5 and 3.00 for 332.5) |
+| Highest open interest call strike | 350 (open interest 1,419) |
+| Highest open interest put strike | 300 (open interest 2,099) |
 
 ## Per-Expiration Summary Table
 
@@ -96,3 +90,7 @@ Available option expiration dates returned by the source (in order):
 | 2026-11-04 | $330.26 | 330 | 350 (7,478) | 275 (22,002) |
 | 2026-11-06 | $330.26 | 330 | 350 (30,000) | 320 (36,756) |
 | 2026-11-09 | $330.26 | 330 | 350 (1,419) | 300 (2,099) |
+
+---
+
+*Prepared 2026-11-02 for the weekly risk meeting. All market data sourced from Yahoo Finance live feeds.*
